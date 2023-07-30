@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.354e5fb7.css",
+    "main.js": "/static/js/main.2ab46fc7.js",
+    "static/media/spices.jpeg": "/static/media/spices.d7f495539840eadaaef8.jpeg",
+    "static/media/epices_viande.jpg": "/static/media/epices_viande.3c2a1b1a276080255149.jpg",
+    "static/media/logo.png": "/static/media/logo.12131668f77d6e3366bf.png",
+    "index.html": "/index.html",
+    "main.354e5fb7.css.map": "/static/css/main.354e5fb7.css.map",
+    "main.2ab46fc7.js.map": "/static/js/main.2ab46fc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.354e5fb7.css",
+    "static/js/main.2ab46fc7.js"
+  ]
+}
