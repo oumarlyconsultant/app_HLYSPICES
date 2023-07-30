@@ -7,7 +7,7 @@ import './css/App.css';
 function App() {
   return (
     <div className="App container-sm">
-      <header className="header">
+      <header className="header" id="header">
         <Navbar />
       </header>
       <hr/>

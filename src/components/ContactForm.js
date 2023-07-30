@@ -13,7 +13,8 @@ export default function ContactForm(){
         <div className="container mt-4 mb-5 p-3" style={{backgroundColor:'rgba(0, 0, 0, 0.4)',color:"white"}}>
         <div className="row">
             <div className="col">
-                <h1>Ecrivez-nous</h1>
+                <h1>Contact</h1>
+                <h2>Ecrivez-nous</h2>
                 <form action={"mailto:"+formData.email} method="post" encType="text/plain">
                     <div className="mb-3">
                         <label className="form-label">Prenom et nom</label>
@@ -36,7 +37,7 @@ export default function ContactForm(){
                 </form>
             </div>
             <div className="col ps-5">
-                <h1>Information de contact</h1>
+                <h2>Information de contact</h2>
                 <p>HLY Spices</p>
                 <p><i className="fa-solid fa-house"></i> Faladje I.J.A, Bamako, Mali</p>
                 <p><i className="fa-brands fa-whatsapp" style={{color: '#24e50b'}}/> +223 66 77 88 99</p>       
