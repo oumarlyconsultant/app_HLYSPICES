@@ -5,7 +5,7 @@ export default function Navbar(){
     return(
         <nav className="navbar navbar-expand-md navbar-light">
           <div className="container-fluid">
-          <img className="p-2" src={img_logo} style={{width:"10rem",borderRadius:"50%"}} />
+          <img className="p-2" src={img_logo} style={{width:"10rem",borderRadius:"50%"}} alt="https://www.google.ca/search?sxsrf=AB5stBgPANRurseMLEB3u8ZdH8JcaNiEJQ:1690706864854&q=logo&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjngeXwhbaAAxW6rYkEHYG9CfkQ0pQJegQIBxAB&biw=2560&bih=1283&dpr=1#imgrc=QtfTwk0fvs1jxM"/>
             {/* <a className="navbar-brand" href="#">HLY Spices</a> */}
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
