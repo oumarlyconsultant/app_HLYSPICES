@@ -11,9 +11,9 @@ export default function ContactForm(){
 
     return(
         <div className="container mt-4 mb-5 p-3" style={{backgroundColor:'rgba(0, 0, 0, 0.4)',color:"white"}}>
-        <div className="row">
-            <div className="col">
-                <h1>Contact</h1>
+        <div className="text-center" style={{backgroundColor:"rgba(0, 0, 0, 0.4)"}}><h1>Contact</h1></div>
+        <div className="row pt-4">
+            <div className="col">              
                 <h2>Ecrivez-nous</h2>
                 <form action={"mailto:"+formData.email} method="post" encType="text/plain">
                     <div className="mb-3">
@@ -21,8 +21,8 @@ export default function ContactForm(){
                         <input type="text" className="form-control" name="nom" value={formData.nom || ""} onChange = {handleChange} required="True" />
                     </div>
                     <div className="mb-3">
-                    <label className="form-label">Numero de telephone</label>
-                    <input type="text" className="form-control" name="telephone" value={formData.telephone || ""} onChange = {handleChange} required="True"  />
+                        <label className="form-label">Numero de telephone</label>
+                        <input type="text" className="form-control" name="telephone" value={formData.telephone || ""} onChange = {handleChange} required="True"  />
                     </div>            
 
                     <div className="mb-3">
