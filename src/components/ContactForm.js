@@ -1,19 +1,19 @@
-import { useState } from "react"
+// import { useState } from "react"
 
 export default function ContactForm(){
-    const [formData,setFormData] = useState({})
+    // const [formData,setFormData] = useState({})
 
-    function handleChange(event){
-        const name = event.target.name
-        const value = event.target.value
-        setFormData(prevValues => ({...prevValues,[name]:value}))
-    }
+    // function handleChange(event){
+    //     const name = event.target.name
+    //     const value = event.target.value
+    //     setFormData(prevValues => ({...prevValues,[name]:value}))
+    // }
 
     return(
         <div className="container mt-4 mb-5 p-3" style={{backgroundColor:'rgba(0, 0, 0, 0.4)',color:"white"}}>
         <div className="text-center" style={{backgroundColor:"rgba(0, 0, 0, 0.4)"}}><h1>Contact</h1></div>
         <div className="row pt-4">
-            <div className="col">              
+            {/* <div className="col">              
                 <h2>Ecrivez-nous</h2>
                 <form action={"mailto:"+formData.email} method="post" encType="text/plain">
                     <div className="mb-3">
@@ -35,13 +35,13 @@ export default function ContactForm(){
                     </div>
                     <button type="submit" className="btn btn-danger">Soumettre</button>
                 </form>
-            </div>
-            <div className="col ps-5">
-                <h2>Information de contact</h2>
+            </div> */}
+            <div className="col ps-5 text-center">
+                {/* <h2>Information de contact</h2> */}
                 <p>HLY Spices</p>
                 <p><i className="fa-solid fa-house"></i> Faladje I.J.A, Bamako, Mali</p>
-                <p><i className="fa-brands fa-whatsapp" style={{color: '#24e50b'}}/> +223 66 77 88 99</p>       
-                <p><i className="fa-solid fa-at"></i> hlyspices@gmail.com</p>         
+                <p><i className="fa-brands fa-whatsapp" style={{color: '#24e50b'}}/> +223 69 42 68 10</p>       
+                <p><i className="fa-solid fa-at"></i> hafsatouly55@gmail.com</p>         
             </div>
 
         </div>

@@ -17,7 +17,7 @@ export default function Navbar(){
                     spy={true}
                     smooth={false}
                     offset={-10}
-                    duration={1000} className="nav-link btn btn-lg btn-outline-danger">Nos produits </Link>
+                    duration={1000} className="nav-link btn btn-lg btn-outline-danger" style={{height:"50px"}}>Nos produits </Link>
                     &nbsp;
 
                 <Link to="contact-form"
@@ -25,7 +25,7 @@ export default function Navbar(){
                     spy={true}
                     smooth={false}
                     offset={-10}
-                    duration={500} className="nav-link btn btn-lg btn-outline-danger">Contact </Link>
+                    duration={500} className="nav-link btn btn-lg btn-outline-danger" style={{height:"50px"}}>Contact </Link>
                 
                 <p className="display-5 ms-5" style={{fontFamily:"Trangerine,cursive",opacity:"0.5"}}><em>La passion du gout!</em></p>
               </div>
